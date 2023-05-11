@@ -17,7 +17,9 @@
     gap: 0.5rem;
 }
 .hour-Container, .minute-Container, .seconds-Container{
-    background-color: #292929;
+    background: linear-gradient(76deg,#fde1ff,#e0e7ff,#e0f9ff,#fffae9);
+    animation: slime 45s ease infinite;
+    /* background-color: #292929; */
     border: 1px solid #858585;
     border-radius: 0.5rem;
     display: flex;
@@ -33,7 +35,7 @@
     align-items: center;
 }
 .hour, .min, .sec{
-    color: white;
+    color: rgb(26, 26, 26);
     font-size: 4rem;
     text-align: center;
 }
