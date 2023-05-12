@@ -17,10 +17,14 @@
 </head>
 
 <body>
-    <main class="main">
+    <main class="main" id="mainContainer">
+        <div class="mode-Container">
+            <img src="./Images/toDark.svg" onclick="darkToggle()" alt="" class="toDark" style="display: none;">
+            <img src="./Images/toLight.svg" onclick="modeToggle()" alt="" class="toLight">
+        </div>
        <div class="clock">
         <div class="hour-Container">
-            <p class="hour">
+            <p class="hour colch">
                 
             </p>
         </div>
@@ -28,7 +32,7 @@
             :
         </h1>
         <div class="minute-Container">
-            <p class="min">
+            <p class="min colch2">
                 
             </p>
         </div>
@@ -36,7 +40,7 @@
             :
         </h1>
         <div class="seconds-Container">
-            <p class="sec">
+            <p class="sec colch3">
                 
             </p>
         </div>
