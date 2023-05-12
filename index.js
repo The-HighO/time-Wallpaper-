@@ -35,6 +35,8 @@ let darktButton = document.querySelector(".toLight")
 let lightHourColor = document.querySelector(".colch")
 let lightMinColor = document.querySelector(".colch2")
 let lightSecColor = document.querySelector(".colch3")
+let firstCol = document.querySelector(".colch4")
+let secCol = document.querySelector(".colch5")
 
 const modeToggle  = ()=>{
     main.style.background = "#ffffff"
@@ -43,6 +45,8 @@ const modeToggle  = ()=>{
     lightHourColor.style.color = "#090784"
     lightMinColor.style.color = "#090784"
     lightSecColor.style.color = "#090784"
+    firstCol.style.color  = "black"
+    secCol.style.color  = "black"
 }
 
 const darkToggle = ()=>{
@@ -52,4 +56,6 @@ const darkToggle = ()=>{
     lightHourColor.style.color = "#060606"
     lightMinColor.style.color = "#060606"
     lightSecColor.style.color = "#060606"
+    firstCol.style.color  = "#ffffff"
+    secCol.style.color  = "#ffffff"
 }
